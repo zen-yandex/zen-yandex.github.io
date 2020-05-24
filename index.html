@@ -2,13 +2,29 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>404 error | HTML</title>
+  <title>TEST | HTML</title>
   <meta name="viewport" content="width=device-width">
   <link rel="icon" href="https://vsevolodhtml.ru/assets/img/favicon.png">
   <link rel="stylesheet" href="https://vsevolodhtml.ru/assets/css/style.css">
 </head>
 <body>
-    <main><img src="https://vsevolodhtml.ru/assets/img/logo1.png"><h3>Здравствуйте</h3></main>
+    <main>
+      <img src="https://vsevolodhtml.ru/assets/img/logo1.png"><h3>Здравствуйте</h3>
+      <form
+        action="https://formspree.io/xzbjezgb"
+        method="POST"
+      >
+        <label>
+          Ваш email:
+          <input type="text" name="_replyto">
+        </label>
+        <label>
+          Ваше пожелание:
+          <textarea name="message"></textarea>
+        </label>
+        <button type="submit">Отправить</button>
+      </form>
+    </main>
     <style>
         html {
             background-color: black;
